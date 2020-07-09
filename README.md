@@ -8,6 +8,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
 
 
 ## Instalación:
+
 1. Creamos una carpeta con el KeyMac_Server.exe dentro.
 2. Activamos el Firewall de Windows con las reglas de bloqueo activadas.
 3. Abrimos el KeyMac_Server.exe y configuramos todo desde el panel del servidor.
@@ -16,6 +17,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
 
 
 ##Caracteristicas:
+
 * Detector de Procesos y Mouses
 
     - Extrae información de cada proceso abierto y lo analiza:
@@ -206,6 +208,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
 
 
 ##Proximas mejoras:
+
 - Agregar Protección de Memoria a los Servicios/Juegos del anticheat
 - Detector anomalías en el Recoil (Dado las coordenadas del Mouse)
 - Encriptar Fuerte la Comunicación con el Cliente-Servidor (Evitar versiones piratas)
@@ -214,12 +217,14 @@ El código estará cerrado al público para evitar hacking por partes externas.
 
 
 ##Agradecimientos
+
 Gracias ACENTO por permitir testear las versiones Alpha y Beta
 en su servidor. A LedFull y Chika_Gamer por brindar el nombre
 de la Aplicación.
 
 
 ##Donaciones
+
 Si alguien está interesado en donar horas nautas para poder seguir
 mejorando y expandiendo este proyecto puede escribirme por correo.
 Espero que mi primer proyecto en C# (KeyMac) se expanda por toda SNET.
