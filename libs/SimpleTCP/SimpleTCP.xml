@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleTCP</name>
+    </assembly>
+    <members>
+        <member name="T:SimpleTCP.Message">
+            <summary>
+            Message Communication
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.Message.Client">
+            <summary>
+            Socket Client
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.Message.Data">
+            <summary>
+            Data Receive on the Message
+            </summary>
+        </member>
+        <member name="F:SimpleTCP.Message.DataSize">
+            <summary>
+            Data Size on the Message
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.Message.MessageString">
+            <summary>
+            Data Receive in String Format
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.Message.MessageCommand">
+            <summary>
+            Data Receive in Command Deserializate Format
+            </summary>
+        </member>
+        <member name="M:SimpleTCP.Message.ReplyLine(System.String)">
+            <summary>
+            Reply Data Text
+            </summary>
+            <param name="data">Data Text</param>
+        </member>
+        <member name="M:SimpleTCP.Message.ReplyCommand(System.String,System.String[])">
+            <summary>
+            Reply Command Text
+            </summary>
+            <param name="cmd">Command</param>
+            <param name="args">Data with Command</param>
+        </member>
+        <member name="T:SimpleTCP.SimpleTcpClient">
+            <summary>
+            Simple Client Socket
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpClient.Delimiter">
+            <summary>
+            Delimiter send text data
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpClient.Commandlimiter">
+            <summary>
+            Delimiter between internal text data (ex: cmd|data1|data2)
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpClient.StringEncoder">
+            <summary>
+            Encoding for Data receive/sending (UTF8, ASCII)
+            </summary>
+        </member>
+        <member name="E:SimpleTCP.SimpleTcpClient.ClientDataReceived">
+            <summary>
+            Event Receive Data (Server send any data)
+            </summary>
+        </member>
+        <member name="E:SimpleTCP.SimpleTcpClient.ClientDisconnected">
+            <summary>
+            Event Client Disconnected (Connection lost / Disconnect)
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpClient.Client">
+            <summary>
+            Socket Client
+            </summary>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.#ctor">
+            <summary>
+            Declare Client and Default Data (Encoder|Delimiters)
+            </summary>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.Connect(System.String,System.Int32,System.Int32)">
+            <summary>
+            Connect Client to Server
+            </summary>
+            <param name="hostNameOrIpAddress">Host</param>
+            <param name="port">Port</param>
+            <param name="timeout">Timeout</param>
+            <returns>SimpleTCPClient</returns>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.Disconnect">
+            <summary>
+            Disconnect Client from Server
+            </summary>
+            <returns>SimpleTCPClient</returns>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.WriteFile(System.String)">
+            <summary>
+            Send Image to Server
+            </summary>
+            <param name="path">File Path</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.WriteLine(System.String)">
+            <summary>
+            Send Text to Server
+            </summary>
+            <param name="data">Text to Send</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.WriteCommand(System.String,System.String[])">
+            <summary>
+            Send Command to Server
+            </summary>
+            <param name="cmd">Command</param>
+            <param name="args">Data with Command</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.WriteLineAndGetReply(System.String,System.TimeSpan)">
+            <summary>
+            Send Text to Server and Wait Reply
+            </summary>
+            <param name="data">Text to Send</param>
+            <param name="timeout">Timeout</param>
+            <returns>Message</returns>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.WriteCommandAndGetReply(System.String,System.TimeSpan,System.String[])">
+            <summary>
+            Send Command to Server and Wait Reply
+            </summary>
+            <param name="cmd">Command</param>
+            <param name="timeout">Timeout</param>
+            <param name="args">Data with Command</param>
+            <returns>Message</returns>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.GetMacAddress">
+            <summary>
+            Get Mac Address to Client
+            </summary>
+            <returns>Mac Address</returns>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.DeserializeCommand(System.String,System.Char)">
+            <summary>
+            Deserialize Command to receive from Server by commandDelimiter
+            </summary>
+            <param name="data">Data Text</param>
+            <param name="split">Command Delimiter</param>
+            <returns>String[] data</returns>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.Dispose(System.Boolean)">
+            <summary>
+            Clear Object
+            </summary>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpClient.Dispose">
+            <summary>
+            Clear Object
+            </summary>
+        </member>
+        <member name="T:SimpleTCP.SimpleTcpServer">
+            <summary>
+            Simple Server Socket
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpServer.IsStarted">
+            <summary>
+            Is Server Started
+            </summary>
+            <returns>Server Started</returns>
+        </member>
+        <member name="E:SimpleTCP.SimpleTcpServer.ClientConnected">
+            <summary>
+            Event Client Cconnected
+            </summary>
+        </member>
+        <member name="E:SimpleTCP.SimpleTcpServer.ClientDisconnected">
+            <summary>
+            Event Client Disconnected (Connection lost / Disconnect)
+            </summary>
+        </member>
+        <member name="E:SimpleTCP.SimpleTcpServer.DelimiterDataReceived">
+            <summary>
+            Event Receive Data with Delimiter from Client
+            </summary>
+        </member>
+        <member name="E:SimpleTCP.SimpleTcpServer.ImageReceived">
+            <summary>
+            Event Receive Image Data from Client
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpServer.ConnectedClientsCount">
+            <summary>
+            Get Count Clients Connected to Server
+            </summary>
+            <returns>Count Clients Connected</returns>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpServer.ConnectedClients">
+            <summary>
+            Get List Clientes Connected to Server
+            </summary>
+            <returns>List of Clients</returns>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpServer.LineDelimiter">
+            <summary>
+            Delimiter send text data
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpServer.Commandlimiter">
+            <summary>
+            Delimiter between internal text data (ex: cmd|data1|data2)
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SimpleTcpServer.StringEncoder">
+            <summary>
+            Encoding for Data receive/sending (UTF8, ASCII)
+            </summary>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.#ctor(System.Net.IPAddress,System.Int32,System.Int32)">
+            <summary>
+            Create Server ready for Start/Stop
+            </summary>
+            <param name="ipAddress">IP Address</param>
+            <param name="port">Port</param>
+            <param name="timeout">Timeout</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Create Server with auto-IP ready for Start/Stop
+            </summary>
+            <param name="port">Port</param>
+            <param name="timeout">Timeout</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.Start">
+            <summary>
+            Start Server
+            </summary>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.Stop">
+            <summary>
+            Stop Server
+            </summary>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.Kick(System.String)">
+            <summary>
+            Kick Client IP from the server
+            </summary>
+            <param name="ip">IP Address String</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.Kick(System.Net.Sockets.Socket)">
+            <summary>
+            Kick Client Socket from the server
+            </summary>
+            <param name="client">Client Socket</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.Send(System.String,System.String)">
+            <summary>
+            Send String Data to IP Client
+            </summary>
+            <param name="ip">IP Address String</param>
+            <param name="data">Text Data</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.SendCommand(System.String,System.String,System.String[])">
+            <summary>
+            Send Command Text to IP Client
+            </summary>
+            <param name="ip">IP Address String</param>
+            <param name="cmd">Command</param>
+            <param name="args">Data with Command</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.Broadcast(System.String)">
+            <summary>
+            Send String Text to All Clients
+            </summary>
+            <param name="data">IP Address String</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.BroadcastCommand(System.String,System.String[])">
+            <summary>
+            Send Command Text to All Clients
+            </summary>
+            <param name="cmd">Command</param>
+            <param name="args">Data with Command</param>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.DeserializeCommand(System.String,System.Char)">
+            <summary>
+            Deserialize Command to receive from Server by commandDelimiter
+            </summary>
+            <param name="data">Data Text</param>
+            <param name="split">Command Delimiter</param>
+            <returns>String[] data</returns>
+        </member>
+        <member name="M:SimpleTCP.SimpleTcpServer.GetMacAddress(System.String)">
+            <summary>
+            Get Mac from IPAddress
+            </summary>
+            <param name="address">IP Address</param>
+            <returns>String Mac Address</returns>
+        </member>
+        <member name="T:SimpleTCP.SocketConnection">
+            <summary>
+            Extra Socket Connection Class
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SocketConnection.connection">
+            <summary>
+            Socket Connection
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SocketConnection.macAddress">
+            <summary>
+            MacAddress of Client
+            </summary>
+        </member>
+        <member name="P:SimpleTCP.SocketConnection.ip">
+            <summary>
+            IP of Client
+            </summary>
+        </member>
+    </members>
+</doc>
