@@ -1,4 +1,4 @@
-#Proyecto KeyMac - Anti-Cheat Steam para la Comunidad de SNET
+# Proyecto KeyMac - Anti-Cheat Steam para la Comunidad de SNET
 Este proyecto tiene como objetivo brindar un servicio de Anticheat para
 la comunidad de SNET. Ya era hora que un anticheat pueda ser escalable.
 Este producto es libre de uso y comercio, por lo que pueden hacer lo que
@@ -8,7 +8,6 @@ El código estará cerrado al público para evitar hacking por partes externas.
 
 
 ## Instalación:
-
 1. Creamos una carpeta con el KeyMac_Server.exe dentro.
 2. Activamos el Firewall de Windows con las reglas de bloqueo activadas.
 3. Abrimos el KeyMac_Server.exe y configuramos todo desde el panel del servidor.
@@ -16,7 +15,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
 5. Listo! A disfrutar.
 
 
-##Caracteristicas:
+## Caracteristicas:
 
 * Detector de Procesos y Mouses
 
@@ -207,7 +206,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
     dudes en contactarme vía Correo, mi correo está en mi cuenta de GitHub.
 
 
-##Proximas mejoras:
+## Proximas mejoras:
 
 - Agregar Protección de Memoria a los Servicios/Juegos del anticheat
 - Detector anomalías en el Recoil (Dado las coordenadas del Mouse)
@@ -216,14 +215,14 @@ El código estará cerrado al público para evitar hacking por partes externas.
 - Desarrollar un Coordinador o Base para uno (Integrado con el KeyMac)
 
 
-##Agradecimientos
+## Agradecimientos
 
 Gracias ACENTO por permitir testear las versiones Alpha y Beta
 en su servidor. A LedFull y Chika_Gamer por brindar el nombre
 de la Aplicación.
 
 
-##Donaciones
+## Donaciones
 
 Si alguien está interesado en donar horas nautas para poder seguir
 mejorando y expandiendo este proyecto puede escribirme por correo.
