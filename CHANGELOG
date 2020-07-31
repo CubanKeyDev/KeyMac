@@ -1,0 +1,105 @@
+v2.4.3
+  date: 2020-07-29
+  changes:
+	- Agregado Auto-Login cuando Necesita Re-Login
+	- Arreglado Communication Library
+	- Mejorado Deteccion de Inactividad del cliente (Suspend Client)
+	- Mejorado Deteccion de Procesos Ocultos
+	- Mejorado Deteccion de Procesos en Memoria y eliminados del disco
+v2.4.2.1
+  date: 2020-07-10
+  changes:
+	- Agregado envio de Warning Mouse detected
+	- Agregado Mostrar mas informacion en los Logs del servidor
+	- Arreglado error Process Warning
+v2.4.2
+  date: 2020-07-09
+  changes:
+	- Arreglado Kick INACTIVITY (No actualizaba Tiempo de envio de la screenshot)
+	- Arreglado Libreria de Comunicacion
+	- Arreglado recoleccion de MAC por ARP
+	- Agregado mayor tiempo de vida de la conexion (Para conexiones lentas)
+	- Agregado nuevos Procesos a la Whitelist
+	- Mejorado Sistema de Cache
+v2.4.1
+  date: 2020-07-08
+  changes:
+	- Arreglado Libreria de Comunicacion
+	- Arreglado Client & Server tiempo de vida de la conexion
+	- Arreglado expulsion antes de recibir mensaje
+	- Arreglado Repeticion de Lista de Mouses
+	- Arreglado el Compilado (Removed String Encriptation)
+	- Ajustado Timeout de Timpo de vida de la conexion
+	- Agregado nuevos Procesos al Whitelist
+	- Mejorado Capturador de Pantalla (mas de 1 pantalla)
+v2.4.0:
+  date: 2020-07-07
+  changes:
+	- Eliminado Modo Debug
+	- Arreglado Libreria de Comunicacion
+	- Arreglado Error de Tiempo de Conexion & Deteccion de Desconexion
+	- Arreglado Actualizador de IP/MAC en la Base de Datos
+	- Arreglado Fallo de Deteccion de Hackers
+	- Agregado Capa de Seguridad en el Server
+	- Agregado Comunicacion Encriptada
+	- Agregado Detector de Peticiones Sospechosas
+	- Agregado capturador de MAC por ARP y deteccion de IP fantasmas
+	- Agregado Sistema de Deteccion de INACTIVIDAD del Cliente
+	- Agregado Recolector de MAC en ServerTCP
+	- Ajustado Tiempos de espera de conexion
+	- Ajustado todo el ServerResponse para MAC
+	- Agregado separacion User-IP a User-MAC
+	- Agregado Anclaje por IP/MAC en el Server (SNET o JC)
+	- Agregado envio de MAC extra para evitar conflicto IP-User/MAC-User
+	- Agregado Cantidad Max de cuentas por IP/MAC (Permitir multi-cuentas)
+	- Cambiado Sistema de Cache e identificar unico a MAC.
+	- Descartado solo anclaje por Steam
+	- Agregado alternador entre API/Steam en el Panel de Config
+	- Agregado Auto inicio del Steam
+	- Agregado Auto Run Server Connection
+	- Agregado Register MAC como SteamID si el usuario logeado no existe (Permitir monitorear usuarios registrado por API)
+	- Agregado Nuevos campos en la Base de Datos (RegisterDate, LoginDate y MacAddress)
+	- Agregado mas informacion de Proceso
+	- Arreglado auto-update databasePATH del Steam
+	- Arreglado conflicto de usuario en CACHE
+	- Desvinculado funcion getWhatPlayerPlaying (Conflicto no anclado al Steam)
+	- Reestructurado el Sistema de Carpetas de informacion de Usuario
+	- Mejorado Logs del Servidor
+	- Mejorado sistema de CACHE.
+	- Arreglado Detalles Pequeños en el Cliente
+	- Arreglado Mostrar Razon de Ban
+	- Arreglado Bug on Workers in Login/Register View
+	- Arreglado Primera View al Iniciar (Sin config ir al ConfigView)
+	- Arreglado Cliente tiempo de espera en el Warning
+	- Arreglado Conflicto de trafico en Server View
+	- Arreglado Algunos mensajes de Warning & Error
+	- Arreglado Cargar los View (Fix Multi-Same-View-Opened)
+	- Arreglado error leyendo logs que ya estan siendo leidos (indica que ya hay un KeyMac trabajando)
+	- Arreglado Login y su deteccion en Register
+	- Agregado seguridad en el cliente (Encriptar user/pass)
+	- Agregado Validador de usuario min 4 caracteres
+	- Agregado las Reglas Generales de SNET
+	- Agregado Administrador de Configuracion al Cliente
+	- Agregado About View con Agradecimientos
+	- Agregado Validador de URL/IP en Config
+	- Agregado Abrir URL de un Servidor de Juegos
+	- Agregado Version en el Titulo
+	- Mejorado Broadcast to ban
+	- Mejorado Mensaje de Advertencia (Auto Kill Process)
+	- Separado Loading con Scanner
+	- Arreglado Warning en el cambio para Server Section
+	- Arreglado Actualizacion de Configuraciones.
+	- Integrada Libreria de Deteccion de Cheats
+	- Agregado informacion para el ProcessInfo & UserCache
+	- Mejorado visor de Devices con el Whitelist
+	- Mejorado Deteccion de DLL (Ahora si detecta los DLL del proceso).
+	- Mejorado Manejador de Configuracion
+	- Agregado HASH Modular al INI
+	- Agregado Capturador de Aplicaciones
+	- Agregado Verificador de IPs en el FIrewall
+	- Agregado Actualizador de Config en el Firewall
+	- Agregado nuevos programas para el Whitelist Principal
+	- Agregado nombre del Proceso Principal en el Firewall (Antiguo Steam)
+	- Agregado Importacion del HASH para el API
+	- Agregado Agregar/Remover a la Whitelist mediante API (Util para JC)
+	- Mejorada Integracion con el API (Whitelist, Ban, login, register, Games)
