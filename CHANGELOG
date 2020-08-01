@@ -1,3 +1,8 @@
+v2.4.3.1
+  date: 2020-08-02
+  changes:
+	- Agregado Obtener Lista de Procesos ejecutados los 2 ultimos dias (GetExecutedProcess)
+	- Agregado Obtener Lista de Programas Instalados (GetInstalledPrograms)
 v2.4.3
   date: 2020-07-29
   changes:
