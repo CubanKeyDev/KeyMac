@@ -26,35 +26,35 @@ Tutorial para la Creación de una API que se integre con el KeyMac - Steam Antic
 5. A continuación los Parámetros a cada Action y que debe devolver:
 	
         Action: login
-        Parámetros: username, password, ip
+        Parámetros: username, password, ip, mac
         Respuesta JSON {
             status -> Si se pudo autenticar el usuario
             message -> OK | Mensaje de Error
         }
         
         Action: register
-        Parámetros: username, password, ip
+        Parámetros: username, password, ip, mac
         Respuesta JSON {
             status -> Si se puede registrar o no (Si tienes un sistema de registro vía web poner por defecto en false)
             message -> Steam_id del usuario registrado (Obtener de la tabla "CMServer"."player" de Steam) | Mensaje de Error (¡Registro no permitido!)
         }
         
         Action: ban
-        Parámetros: username, ip, reason
+        Parámetros: username, ip|mac, reason
         Respuesta JSON {
             status -> Si se pudo banear al usuario
             message -> OK | Error de ban (Usuario no existe)
         }
         
         Action: unban
-        Parámetros: username, ip
+        Parámetros: username, ip|mac
         Respuesta JSON {
             status -> Si se pudo desbanear al usuario
             message -> OK | Error de Desbaneando (Usuario no esta baneado | Usuario no existe)
         }
         
         Action: is_ban
-        Parámetros: username, ip
+        Parámetros: username, ip|mac
         Respuesta JSON {
             status -> Si esta baneado el Usuario o no
             message -> OK | Razón del ban

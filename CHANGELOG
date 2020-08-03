@@ -1,8 +1,23 @@
+v2.4.4 (Proximamente)
+  date: 2020-08-??
+  changes:
+	- Agregado Gestor de Procesos protegidos (Juegos/Servicio)
+	- Agregado Proteccion contra modificacion de Memoria (WriteMomery)
+	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
+	- Mejorado Hacking Detector (Auto-Ban if try exceed)
 v2.4.3.1
   date: 2020-08-02
   changes:
 	- Agregado Obtener Lista de Procesos ejecutados los 2 ultimos dias (GetExecutedProcess)
 	- Agregado Obtener Lista de Programas Instalados (GetInstalledPrograms)
+	- Agregado Validador de Permisos (Admin Privileges Required)
+	- Agregado nuevos programas para el Whitelist Principal
+	- Arreglado Matar Proceso en el Warning (GetProcessByProcessID)
+	- Mejorado informacion de los Logs
+	- Eliminado Comprobador de Paquetes sospecho en Ban Request (Ban User Forced)
+	- Cambiado Parametro Ban en el API (API - BAN[username, ip/mac])
+	- Cambiado orden de Process Info (See README)
+	- Cambiado el Baneo por MAC-User (Ajuste para JC)
 v2.4.3
   date: 2020-07-29
   changes:

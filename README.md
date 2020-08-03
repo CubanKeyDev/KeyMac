@@ -19,10 +19,10 @@ El código estará cerrado al público para evitar hacking por partes externas.
 
 * Detector de Procesos y Mouses
 
-    - Extrae información de cada proceso abierto y lo analiza:
+    - Extrae información de cada proceso abierto y lo muestra en este orden:
     
-        ProductName, FilePath, FileOriginalName, LastModified, FileSize, Checksum,
-        WindowsTitle, FileDescription, FileVersion, CompanyName, LegalCopyright
+        ProductName, FilePath, FileOriginalName, WindowsTitle, FileDescription,
+		FileVersion, CompanyName, FileSize, LastModified, LegalCopyright, Checksum
         
     - Detecta todos los procesos que contengan alguna amenaza como:
     
@@ -182,7 +182,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
     sistema funciona por Mac-Address. Identificando por PC al usuario
     generando menos conflicto, pero si un usuario tiene baneada una cuenta
     en su PC puede afectar otra registrada en su misma PC (Esto es positivo y
-    negativo, puede permitir que todas las cuentas de una PC estén baneadas)
+    negativo, permite banear que todas las cuentas de una PC esten baneadas)
     
 * Portabilidad
 
@@ -210,9 +210,11 @@ El código estará cerrado al público para evitar hacking por partes externas.
 
 - Agregar Protección de Memoria a los Servicios/Juegos del anticheat
 - Detector anomalías en el Recoil (Dado las coordenadas del Mouse)
+- Detector de Integralidad de ficheros (Dado Proceso protegido)
 - Encriptar Fuerte la Comunicación con el Cliente-Servidor (Evitar versiones piratas)
 - Mejorar integración con el TINServer (TINApiServer y SteamApiCommunicator)
 - Desarrollar un Coordinador o Base para uno (Integrado con el KeyMac)
+- Desarrollar una Web interactiva para Steam (Integrado dentro del KeyMac)
 
 
 ## Agradecimientos
@@ -228,4 +230,4 @@ Si alguien está interesado en donar horas nautas para poder seguir
 mejorando y expandiendo este proyecto puede escribirme por correo.
 Espero que mi primer proyecto en C# (KeyMac) se expanda por toda SNET.
 
-Gracias por el apoyo :) nos vemos por la SNET.
+Gracias por el apoyo :) nos vemos por la SNET. (TS 10.86.0.1)
