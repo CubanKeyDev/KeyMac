@@ -1,10 +1,23 @@
 v2.4.4 (Proximamente)
-  date: 2020-08-??
+  date: 2020-08-9
   changes:
 	- Agregado Gestor de Procesos protegidos (Juegos/Servicio)
-	- Agregado Proteccion contra modificacion de Memoria (WriteMomery)
 	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
-	- Mejorado Hacking Detector (Auto-Ban if try exceed)
+	- Removida Herramienta de Checkeo de Integralidad (No publica)
+v2.4.3.2
+  date: 2020-08-5
+  changes:
+	- Agregado Seccion de Procesos en KeyMac Server (Comming soon)
+	- Agregado Controlador de Lectura de Base de datos (DatabaseReadMutex)
+	- Mejorado Sistema de Deteccion con Analizador de codigo (DescompileSystem)
+	- Mejorado Sistema de Deteccion con mas palabras reservadas (Hack,Cheat) puede dar mas falsos positivo.
+	- Mejorado Sistema de Deteccion mayor numero de comprobaciones
+	- Arreglado Communication Library
+	- Arreglado Error Multi-Connections del Cliente (ManyConnectionSameClient)
+	- Arreglado Connect-Disconnect entrelazados
+	- Arreglado Conflicto Multi-Users en KeyMac Server
+	- Arreglado Todo el Sistema de Recibo/Envio de Informacion (OldCodeUpdated)
+	- Cambiado a MacAddress como identificador de Kick, Send & Others
 v2.4.3.1
   date: 2020-08-02
   changes:
