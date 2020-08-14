@@ -1,10 +1,17 @@
 v2.4.4 (Proximamente - Release)
-  date: 2020-08-15
+  date: 2020-08-22
   changes:
 	- Agregado Gestor de Procesos protegidos (Juegos/Servicio)
 	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
 	- Agregado Checker Injector DLL/Script de Procesos protegidos
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
+v2.4.3.4 (Pre-release)
+  date: 2020-08-14
+  changes:
+	- Agregado Opcion de envio de imagenes (Free Traffic)
+	- Agregado Procesos de Windows en el Detector.
+	- Arreglado error al Crear la Base de datos inicial.
+	- Removido Verificador de envio de imagenes (Removed Auto-Kick ImagenSendingLastTimeout)
 v2.4.3.3 (Pre-release)
   date: 2020-08-9
   changes:
