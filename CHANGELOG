@@ -1,10 +1,27 @@
 v2.4.4 (Proximamente - Release)
-  date: 2020-08-22
+  date: 2020-08-??
   changes:
 	- Agregado Gestor de Procesos protegidos (Juegos/Servicio)
 	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
 	- Agregado Checker Injector DLL/Script de Procesos protegidos
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
+v2.4.3.5 (Pre-release)
+  date: 2020-08-??
+  changes:
+	- Agregado Validador de IP y Mac en KeyMac Server (Block HTTP Connection)
+	- Agregado Validador de Password en KeyMac (Solo mayusculas, minusculas y numeros)
+	- Agregados Validadores de Datos fantasmas.
+	- Agregado Cierre de Base de Datos (SafeCloseDatabase)
+	- Agregado mas Parametros en el CheatDetector.
+	- Arreglado Capturador de Programas Ejecutados.
+	- Arreglado Mensaje de Baneado en el Cliente.
+	- Reestructurado todo el Sistema de Base de Datos. (Micro-ORM Integrated)
+	- Reestructurado Libreria de Comunicacion. (SafeConnection)
+	- Reestructurado Peticiones al Servidor. (ChangeAllCommands)
+	- Intengrando Modulo de Integralidad y Detector de Injectors.
+	- Cambiado Razon del Ban en el Servidor.
+	- Cambiado Orden de envio de Informacion.
+	- Cambiado Ofuscador de Codigo Fuente.
 v2.4.3.4 (Pre-release)
   date: 2020-08-14
   changes:
