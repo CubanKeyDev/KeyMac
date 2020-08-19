@@ -5,20 +5,21 @@ v2.4.4 (Proximamente - Release)
 	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
 	- Agregado Checker Injector DLL/Script de Procesos protegidos
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
+	- Reestructurado Peticiones al Servidor. (ChangeAllCommands)
+	- Reestructurado Libreria de Comunicacion. (SafeConnection)
 v2.4.3.5 (Pre-release)
-  date: 2020-08-??
+  date: 2020-08-19
   changes:
-	- Agregado Validador de IP y Mac en KeyMac Server (Block HTTP Connection)
+	- Agregado Validador de IP y Mac en KeyMac Server (Block HTTP/HTTPS Connection)
 	- Agregado Validador de Password en KeyMac (Solo mayusculas, minusculas y numeros)
 	- Agregados Validadores de Datos fantasmas.
-	- Agregado Cierre de Base de Datos (SafeCloseDatabase)
+	- Agregado Anti-SQLInjection al Sisteam de Base de datos.
 	- Agregado mas Parametros en el CheatDetector.
+	- Arreglado Cambio automatico archivo de Logs. (ChangeDatetimeLog)
 	- Arreglado Capturador de Programas Ejecutados.
 	- Arreglado Mensaje de Baneado en el Cliente.
 	- Reestructurado todo el Sistema de Base de Datos. (Micro-ORM Integrated)
-	- Reestructurado Libreria de Comunicacion. (SafeConnection)
-	- Reestructurado Peticiones al Servidor. (ChangeAllCommands)
-	- Intengrando Modulo de Integralidad y Detector de Injectors.
+	- Intengrando Modulo de Integralidad y Detector de Injectores.
 	- Cambiado Razon del Ban en el Servidor.
 	- Cambiado Orden de envio de Informacion.
 	- Cambiado Ofuscador de Codigo Fuente.
