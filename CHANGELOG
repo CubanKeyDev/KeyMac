@@ -10,8 +10,8 @@ v2.4.4 (Proximamente - Release)
 v2.4.3.5 (Pre-release)
   date: 2020-08-19
   changes:
-	- Agregado Validador de IP y Mac en KeyMac Server (Block HTTP/HTTPS Connection)
-	- Agregado Validador de Password en KeyMac (Solo mayusculas, minusculas y numeros)
+	- Agregado Validador de IP y Mac en KeyMac Server. (Block HTTP/HTTPS Connection)
+	- Agregado Validador de Password en KeyMac. (Solo mayusculas, minusculas y numeros)
 	- Agregados Validadores de Datos fantasmas.
 	- Agregado Anti-SQLInjection al Sisteam de Base de datos.
 	- Agregado mas Parametros en el CheatDetector.
@@ -23,6 +23,7 @@ v2.4.3.5 (Pre-release)
 	- Cambiado Razon del Ban en el Servidor.
 	- Cambiado Orden de envio de Informacion.
 	- Cambiado Ofuscador de Codigo Fuente.
+	- Removido requerido Perfil de Dominio del Firewall.
 v2.4.3.4 (Pre-release)
   date: 2020-08-14
   changes:
