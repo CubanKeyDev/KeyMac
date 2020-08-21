@@ -10,8 +10,8 @@ v2.4.4 (Proximamente - Release)
 v2.4.3.6 (Pre-release)
   date: 2020-08-21
   changes:
-	- Agregado Avisos de Programas/Mouses Sospechosos.
-	- Agregado Opcion "Agregar excepcion" en el area de Baneados.
+	- Agregado Lista de Avisos de Procesos/Mouses Sospechosos en el Servidor.
+	- Agregado Opcion "Agregar excepcion" en el area de Baneados/Avisos.
 	- Agregado Capa extra de Captura de Errores en el Servidor.
 	- Arreglado Error de Conexiones en Libreria de Comunicacion.
 	- Arreglado Error en la Base de Datos. (GetRealDatabaseUsers)
