@@ -6,7 +6,22 @@ v2.4.4 (Proximamente - Release)
 	- Agregado Checker Injector DLL/Script de Procesos protegidos
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
 	- Reestructurado Peticiones al Servidor. (ChangeAllCommands)
-	- Reestructurado Libreria de Comunicacion. (SafeConnection)
+v2.4.3.7 (Pre-release)
+  date: 2020-08-28
+  changes:
+	- Agregado Limpiador de Caracteres Unitarios en CheatDetector.
+	- Agregado Configuracion del Numero maximo de clientes conectados.
+	- Agregado Configuracion de la Ruta del cliente KeyMac.
+	- Agregado Mini Web para gestionar mejor las cuentas de usuario.
+	- Agregado Gestor de Usuarios via Web. Para la administracion.
+	- Agregada Nueva libreria de Comunicacion. (KeyMacTCP)
+	- Reestructurado Libreria de Comunicacion. (Change SimpleTCP to KeyMacTCP)
+	- Mejorado Detector de Programas Instalados. (GetExtraInstalledPrograms)
+	- Mejorado Logs del Cliente. (AddMoreInformation)
+	- Ajustado Tiempo de conexion a 15 segundos (ChangeTimeoutConnection).
+	- Removido Tamaño minimo de la contraseña en el Login del Cliente.
+	- Removido Sistema de Versiones Modulares. Razon: Mal Uso por parte de la Administracion.
+	- Removido URL de actualizacion. (ChangeToFilePath)
 v2.4.3.6 (Pre-release)
   date: 2020-08-21
   changes:
@@ -26,7 +41,7 @@ v2.4.3.5 (Pre-release)
 	- Agregado Validador de IP y Mac en KeyMac Server. (Block HTTP/HTTPS Connection)
 	- Agregado Validador de Password en KeyMac. (Solo mayusculas, minusculas y numeros)
 	- Agregados Validadores de Datos fantasmas.
-	- Agregado Anti-SQLInjection al Sisteam de Base de datos.
+	- Agregado Anti-SQLInjection al Sistema de Base de datos.
 	- Agregado mas Parametros en el CheatDetector.
 	- Arreglado Cambio automatico archivo de Logs. (ChangeDatetimeLog)
 	- Arreglado Capturador de Programas Ejecutados.
