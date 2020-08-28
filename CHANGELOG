@@ -7,17 +7,21 @@ v2.4.4 (Proximamente - Release)
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
 	- Reestructurado Peticiones al Servidor. (ChangeAllCommands)
 v2.4.3.7 (Pre-release)
-  date: 2020-08-28
+  date: 2020-08-31
   changes:
 	- Agregado Limpiador de Caracteres Unitarios en CheatDetector.
 	- Agregado Configuracion del Numero maximo de clientes conectados.
 	- Agregado Configuracion de la Ruta del cliente KeyMac.
-	- Agregado Mini Web para gestionar mejor las cuentas de usuario.
+	- Agregado Verificador de Cliente en el Servidor.
+	- Agregado Ruta fila de descarga del Cliente a la del Mini Server Web.
+	- Agregado Mini Server Web para gestionar mejor las cuentas de usuario.
+	- Agregado Pagina principal y descarga del cliente via Web.
 	- Agregado Gestor de Usuarios via Web. Para la administracion.
+	- Agregado Seguridad minima en el Gestion de Usuarios via Web.
 	- Agregada Nueva libreria de Comunicacion. (KeyMacTCP)
 	- Reestructurado Libreria de Comunicacion. (Change SimpleTCP to KeyMacTCP)
 	- Mejorado Detector de Programas Instalados. (GetExtraInstalledPrograms)
-	- Mejorado Logs del Cliente. (AddMoreInformation)
+	- Mejorado Logs del Cliente con informacion mas precisa.
 	- Ajustado Tiempo de conexion a 15 segundos (ChangeTimeoutConnection).
 	- Removido Tamaño minimo de la contraseña en el Login del Cliente.
 	- Removido Sistema de Versiones Modulares. Razon: Mal Uso por parte de la Administracion.

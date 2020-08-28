@@ -6,7 +6,7 @@ Tutorial para la Creación de una API que se integre con el KeyMac - Steam Antic
 
 2.	Revisamos la configuración del servidor "KeyMac_Server.ini" y encontraremos un parámetro
 	llamado "apiHash" el cual siempre se envía al API para evitar manipulaciones externas.
-	Se enviará siempre a la URL como "security_hash" vía POST.
+	Se enviará siempre este parámetro como "security_hash" vía POST.
 
 3. Para identificar la operación del AntiCheat se enviará un parámetro "action" el cual será
 	la tarea a realizar ("register", "login", "is_ban", "ban", "unban", "games", "nickname")
@@ -22,6 +22,8 @@ Tutorial para la Creación de una API que se integre con el KeyMac - Steam Antic
 		status : boolean
 		message: text | json
 	}
+	
+	Nota: El simbolo "|" interepretalo como un "o", osea: Esto o aquello (Esto | Aquello)
 
 5. A continuación los Parámetros a cada Action y que debe devolver:
 	
@@ -36,7 +38,7 @@ Tutorial para la Creación de una API que se integre con el KeyMac - Steam Antic
         Parámetros: username, password, ip, mac
         Respuesta JSON {
             status -> Si se puede registrar o no (Si tienes un sistema de registro vía web poner por defecto en false)
-            message -> Steam_id del usuario registrado (Obtener de la tabla "CMServer"."player" de Steam) | Mensaje de Error (¡Registro no permitido!)
+            message -> Steam_id del usuario registrado (Obtener de la tabla "CMServer"."player" del TINSteam) | Mensaje de Error (¡Registro no permitido!)
         }
         
         Action: ban
