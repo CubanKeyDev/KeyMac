@@ -1,5 +1,5 @@
 v2.4.4 (Proximamente - Release)
-  date: 2020-08-??
+  date: 2020-09-??
   changes:
 	- Agregado Gestor de Procesos protegidos (Juegos/Servicio)
 	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
@@ -13,6 +13,7 @@ v2.4.3.7 (Pre-release)
 	- Agregado Configuracion del Numero maximo de clientes conectados.
 	- Agregado Configuracion de la Ruta del cliente KeyMac.
 	- Agregado Verificador de Cliente en el Servidor.
+	- Agregado Validadores de Configuraciones en el Panel del KeyMac.
 	- Agregado Ruta fila de descarga del Cliente a la del Mini Server Web.
 	- Agregado Mini Server Web para gestionar mejor las cuentas de usuario.
 	- Agregado Pagina principal y descarga del cliente via Web.
