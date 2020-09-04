@@ -7,7 +7,7 @@ v2.4.4 (Proximamente - Release)
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
 	- Reestructurado Peticiones al Servidor. (ChangeAllCommands)
 v2.4.3.7 (Pre-release)
-  date: 2020-08-31
+  date: 2020-09-04
   changes:
 	- Agregado Limpiador de Caracteres Unitarios en CheatDetector.
 	- Agregado Configuracion del Numero maximo de clientes conectados.
@@ -18,7 +18,7 @@ v2.4.3.7 (Pre-release)
 	- Agregado Mini Server Web para gestionar mejor las cuentas de usuario.
 	- Agregado Pagina principal y descarga del cliente via Web.
 	- Agregado Gestor de Usuarios via Web. Para la administracion.
-	- Agregado Seguridad minima en el Gestion de Usuarios via Web.
+	- Agregado Seguridad en el Gestion de Usuarios via Web.
 	- Agregada Nueva libreria de Comunicacion. (KeyMacTCP)
 	- Reestructurado Libreria de Comunicacion. (Change SimpleTCP to KeyMacTCP)
 	- Mejorado Detector de Programas Instalados. (GetExtraInstalledPrograms)
