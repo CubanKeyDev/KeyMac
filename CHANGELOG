@@ -6,6 +6,23 @@ v2.4.4 (Proximamente - Release)
 	- Agregado Checker Injector DLL/Script de Procesos protegidos
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
 	- Reestructurado Peticiones al Servidor. (ChangeAllCommands)
+v2.4.3.9 (Pre-release)
+  date: 2020-09-10
+  changes:
+	- Mejorado Sitio Web.
+v2.4.3.8 (Pre-release)
+  date: 2020-09-07
+  changes:
+	- Agregado Validador de Whitelist/Blacklist Duplicados.
+	- Agregado Validador de Avisos Duplicados.
+	- Agregado Auto-Removedor de notificaciones del Firewall.
+	- Agregado Limpiador de Avisos. (ClearAllWarnings)
+	- Agregado Regla para permitir todos los puertos del Firewall.
+	- Arreglado Confirmador de Conexion con el Servidor. (ChangeTimeoutSending)
+	- Mejorado deteccion de Clientes Falsos. (CheckClientHashing)
+	- Mejorado el control del Firewall de Windows (UpdatingAllActions)
+	- Cambiado el Reglamento Basico del KeyMac.
+	- Cambiado Recibir imagenes a Recibir informacion. (Enviar cada 10min toda la informacion)
 v2.4.3.7 (Pre-release)
   date: 2020-09-04
   changes:
