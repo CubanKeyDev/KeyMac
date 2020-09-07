@@ -13,11 +13,13 @@ v2.4.3.9 (Pre-release)
 v2.4.3.8 (Pre-release)
   date: 2020-09-07
   changes:
+	- Agregado Libro de Recetas en la documentacion. (Added CookBook)
 	- Agregado Validador de Whitelist/Blacklist Duplicados.
 	- Agregado Validador de Avisos Duplicados.
 	- Agregado Auto-Removedor de notificaciones del Firewall.
 	- Agregado Limpiador de Avisos. (ClearAllWarnings)
 	- Agregado Regla para permitir todos los puertos del Firewall.
+	- Agregado Eliminador de Ruta del Servidor Principal. (Ya no es obligado el Servidor Principal)
 	- Arreglado Confirmador de Conexion con el Servidor. (ChangeTimeoutSending)
 	- Mejorado deteccion de Clientes Falsos. (CheckClientHashing)
 	- Mejorado el control del Firewall de Windows (UpdatingAllActions)
