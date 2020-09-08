@@ -1,19 +1,28 @@
-v2.4.4 (Proximamente - Release)
-  date: 2020-09-??
+v2.4.4.1 (Pre-release)
+  date: 2020-09-20
+  changes:
+	- Agregado Panel de Configuracion y Gestion del KeyMac via Web.
+	- Agregado Registro, Autenticacion y Gestion de cuentas de usuario via Web.
+	- Agregado Sistema de Noticias sobre los Servicios disponibles via Web.
+	- Agregado Guia Basica de Utilizacion del KeyMac via Web.
+	- Agregado Vision y Objetivo del Proyecto via Web.
+	- Agregado Sistema de archivos estaticos e imagenes para el Sitio Web.
+	- Agregado Sistema de Permisos para el Sitio Web.
+	- Agregado 
+	- Mejorado Sitio Web por completo.
+	- Cambiado Diseño del Sitio Web.
+v2.4.4 (Release)
+  date: 2020-09-15
   changes:
 	- Agregado Gestor de Procesos protegidos (Juegos/Servicio)
 	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
 	- Agregado Checker Injector DLL/Script de Procesos protegidos
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
 	- Reestructurado Peticiones al Servidor. (ChangeAllCommands)
-v2.4.3.9 (Pre-release)
-  date: 2020-09-10
-  changes:
-	- Mejorado Sitio Web.
 v2.4.3.8 (Pre-release)
-  date: 2020-09-07
+  date: 2020-09-09
   changes:
-	- Agregado Libro de Recetas en la documentacion. (Added CookBook)
+	- Agregado Guia Completa en la documentacion. (Added CookBook)
 	- Agregado Validador de Whitelist/Blacklist Duplicados.
 	- Agregado Validador de Avisos Duplicados.
 	- Agregado Auto-Removedor de notificaciones del Firewall.
@@ -25,6 +34,7 @@ v2.4.3.8 (Pre-release)
 	- Mejorado el control del Firewall de Windows (UpdatingAllActions)
 	- Cambiado el Reglamento Basico del KeyMac.
 	- Cambiado Recibir imagenes a Recibir informacion. (Enviar cada 10min toda la informacion)
+	- Cambiado Plataforma de Destino a .NET FRAMEWORK 4.7 para el Servidor.
 v2.4.3.7 (Pre-release)
   date: 2020-09-04
   changes:
