@@ -8,7 +8,14 @@ responsable del mal uso que se le pueda dar a este producto.
 El código estará cerrado al público para evitar hacking por partes externas.
 
 
+## Requisitos:
+
+* WINDOWS 8 o superior
+
+* .NET FRAMEWORK 4.7 o superior
+
 ## Instalación:
+
 1. Creamos una carpeta con el KeyMac_Server.exe dentro.
 2. Activamos el Firewall de Windows con las reglas de bloqueo activadas.
 3. Abrimos el KeyMac_Server.exe y configuramos todo desde el panel del servidor.
