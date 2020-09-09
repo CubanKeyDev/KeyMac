@@ -119,7 +119,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
     
 * Servidor Web interno.
 
-	- Expone que es el KeyMac y las reglas establecidas.
+	- Muestra que es el KeyMac y las reglas establecidas.
 	- Permite descargar el Cliente de forma facil.
 	- Contiene un Sistema de Administracion de usuarios.
     
@@ -133,7 +133,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
 	- Solo necesitas Windows y el Firewall activado.
 
 
-## Versions y Cambios:
+## Versiones y Cambios:
 
 - Las version con 4 digitos (1.0.1.1) son versiones Alpha y poseen errores.
 - Las versiones de 3 digitos (1.0.1) son versiones Beta con pocos errores.
