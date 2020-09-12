@@ -23,7 +23,6 @@ El código estará cerrado al público para evitar hacking por partes externas.
 5. El cliente lo abrimos y lo configuramos con la direccion y puerto de nuestro servidor.
 6. Listo! A disfrutar.
 
-
 ## Caracteristicas:
 
 * Detector de Procesos y Mouses.
@@ -101,10 +100,9 @@ El código estará cerrado al público para evitar hacking por partes externas.
 	alguien intentando usar algun tipo de cliente falso para burlar
 	el anticheat.
     
-* ScreenShot e información sensible.
+* Recolector de información no sensible.
 
 	- Extrae información de cada proceso ejecutado, instalado o activo.
-	- Recolecta ScreenShot de toda la pantalla.
 	- Captura todos los dispositivos HID conectados.
     
 * Avisos de Procesos/Mouses Sospechosos.
