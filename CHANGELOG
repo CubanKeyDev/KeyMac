@@ -8,7 +8,6 @@ v2.4.4.1 (Pre-release)
 	- Agregado Vision y Objetivo del Proyecto via Web.
 	- Agregado Sistema de archivos estaticos e imagenes para el Sitio Web.
 	- Agregado Sistema de Permisos para el Sitio Web.
-	- Agregado 
 	- Mejorado Sitio Web por completo.
 	- Cambiado Diseño del Sitio Web.
 v2.4.4 (Release)
@@ -18,7 +17,7 @@ v2.4.4 (Release)
 	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
 	- Agregado Checker Injector DLL/Script de Procesos protegidos
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
-	- Reestructurado Peticiones al Servidor. (ChangeAllCommands)
+	- Cambiado Politicas de Privacidad.
 v2.4.3.8 (Pre-release)
   date: 2020-09-09
   changes:
