@@ -1,11 +1,11 @@
 # Proyecto KeyMac - Anti-Cheat Steam para la Comunidad de SNET
-Es un proyecto AntiCheat independiente que tiene como objetivo
-brindar un servicio de Anticheat para la comunidad de SNET. Un AntiCheat
-facil de instalar, libre, escalable, gratuito y robusto.
-Este producto es libre de uso y el autor "MacKey-255" no se hará
+Es un proyecto AntiCheat independiente que busca contribuir a la seguridad
+y bienestar de la comunidad de SNET. Evitando el uso de mecanismos de
+intervención de juegos o hardware especializado creados para tener
+ventajas sobre el resto de los jugadores. Un AntiCheat facil de instalar,
+libre, escalable, gratuito y robusto. Este producto es libre de uso con
+licencia Apache License 2.0 y el autor "MacKey-255" no se hará
 responsable del mal uso que se le pueda dar a este producto.
-
-El código estará cerrado al público para evitar hacking por partes externas.
 
 
 ## Requisitos:
@@ -13,6 +13,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
 * WINDOWS 8 o superior
 
 * .NET FRAMEWORK 4.7 o superior
+
 
 ## Instalación:
 
@@ -22,6 +23,7 @@ El código estará cerrado al público para evitar hacking por partes externas.
 4. Agregamos la ruta del Cliente desde el panel del servidor.
 5. El cliente lo abrimos y lo configuramos con la direccion y puerto de nuestro servidor.
 6. Listo! A disfrutar.
+
 
 ## Caracteristicas:
 

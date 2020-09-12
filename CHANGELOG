@@ -1,4 +1,4 @@
-v2.4.4.1 (Pre-release)
+v2.4.4 (Release)
   date: 2020-09-20
   changes:
 	- Agregado Panel de Configuracion y Gestion del KeyMac via Web.
@@ -10,14 +10,18 @@ v2.4.4.1 (Pre-release)
 	- Agregado Sistema de Permisos para el Sitio Web.
 	- Mejorado Sitio Web por completo.
 	- Cambiado Diseño del Sitio Web.
-v2.4.4 (Release)
+v2.4.3.9 (Pre-release)
   date: 2020-09-15
   changes:
-	- Agregado Gestor de Procesos protegidos (Juegos/Servicio)
+	- Agregado Gestor de Procesos protegidos. (Juegos/Servicio)
 	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
 	- Agregado Checker Injector DLL/Script de Procesos protegidos
 	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
+	- Agregado Icono de lectura de las Politicas de Privacidad.
+	- Agregado Detector de Pantalla del juego.
+	- Arreglado capturador de imagenes al juego.
 	- Cambiado Politicas de Privacidad.
+	- Mejorado Logs del Cliente con informacion mas precisa.
 v2.4.3.8 (Pre-release)
   date: 2020-09-09
   changes:
