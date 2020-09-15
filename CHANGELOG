@@ -14,14 +14,18 @@ v2.4.3.9 (Pre-release)
   date: 2020-09-15
   changes:
 	- Agregado Gestor de Procesos protegidos. (Juegos/Servicio)
-	- Agregado Checker de Integralidad (Analizar archivos de los procesos protegidos)
-	- Agregado Checker Injector DLL/Script de Procesos protegidos
-	- Agregado Herramienta de Checkeo de Integralidad (Public Version Testing)
+	- Agregado Checker de Integralidad. (Analizar archivos de los procesos protegidos)
+	- Agregado Checker Injector DLL/Script de Procesos protegidos.
+	- Agregado Herramienta de Checkeo de Integralidad. (Public Version Testing)
 	- Agregado Icono de lectura de las Politicas de Privacidad.
+	- Agregado nuevas notificaciones en el Cliente.
+	- Agregado Notificacion de inactividad en el Cliente.
 	- Agregado Detector de Pantalla del juego.
-	- Arreglado capturador de imagenes al juego.
-	- Cambiado Politicas de Privacidad.
-	- Mejorado Logs del Cliente con informacion mas precisa.
+	- Arreglado Capturador de imagenes del juego.
+	- Arreglado mostrar nombre personalizado del jugador.
+	- Cambiado Terminos de Uso y Politicas de Privacidad.
+	- Mejorado Logs del Cliente con informacion mucho más precisa.
+	- Mejorado Carteles de avisos y notificaciones.
 v2.4.3.8 (Pre-release)
   date: 2020-09-09
   changes:
