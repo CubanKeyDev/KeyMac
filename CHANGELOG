@@ -11,7 +11,7 @@ v2.4.4 (Release)
 	- Mejorado Sitio Web por completo.
 	- Cambiado Diseño del Sitio Web.
 v2.4.3.9 (Pre-release)
-  date: 2020-09-15
+  date: 2020-09-17
   changes:
 	- Agregado Gestor de Procesos protegidos. (Juegos/Servicio)
 	- Agregado Checker de Integralidad. (Analizar archivos de los procesos protegidos)
@@ -21,6 +21,7 @@ v2.4.3.9 (Pre-release)
 	- Agregado nuevas notificaciones en el Cliente.
 	- Agregado Notificacion de inactividad en el Cliente.
 	- Agregado Detector de Pantalla del juego.
+	- Agregado Lista de Cambios en el Cliente.
 	- Arreglado Capturador de imagenes del juego.
 	- Arreglado mostrar nombre personalizado del jugador.
 	- Cambiado Terminos de Uso y Politicas de Privacidad.
