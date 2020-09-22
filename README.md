@@ -107,6 +107,12 @@ responsable del mal uso que se le pueda dar a este producto.
 	- Extrae información de cada proceso ejecutado, instalado o activo.
 	- Recolecta caputras de pantalla de procesos protegidos.
 	- Captura todos los dispositivos HID conectados.
+
+* Sistema de Procesos Protegidos.
+	
+	Protege la memoria de los procesos protegidos, evita inyeccion
+	de cualquier tipo de modulo externo y comprueba la autenticidad
+	de los archivos que compone el proceso protegido.
     
 * Avisos de Procesos/Mouses Sospechosos.
 

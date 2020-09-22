@@ -20,17 +20,16 @@ v2.4.3.9 (Pre-release)
 	- Agregado Icono de lectura de las Politicas de Privacidad.
 	- Agregado nuevas notificaciones en el Cliente.
 	- Agregado Notificacion de inactividad en el Cliente.
-	- Agregado Modulo de Tratamiento Web. (WebRounting,WebControllers & WebStaticSystem)
-	- Agregado Sistema Modular Web. (WebModularSystem)
+	- Agregado Modulo de Enrutamiento Web. (WebRounting, WebControllers & WebStaticSystem)
 	- Agregado Detector de Pantalla del juego.
 	- Agregado Lista de Cambios en el Cliente.
+	- Agregado Auto Conectar en el Cliente.
 	- Arreglado Capturador de imagenes del juego.
 	- Arreglado mostrar nombre personalizado del jugador.
 	- Cambiado Terminos de Uso y Politicas de Privacidad.
 	- Mejorado Logs del Cliente con informacion mucho más precisa.
 	- Mejorado Carteles de avisos y notificaciones.
 	- Optimizado el Cliente KeyMac.
-	- Creado Plantilla basica HomePage & AdminPage.
 v2.4.3.8 (Pre-release)
   date: 2020-09-09
   changes:
