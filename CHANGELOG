@@ -1,5 +1,5 @@
 v2.4.4 (Release)
-  date: 2020-09-30
+  date: 2020-10-10
   changes:
 	- Agregado Panel de Configuracion y Gestion del KeyMac via Web.
 	- Agregado Registro, Autenticacion y Gestion de cuentas de usuario via Web.
@@ -8,6 +8,7 @@ v2.4.4 (Release)
 	- Agregado Vision y Objetivo del Proyecto via Web.
 	- Agregado Sistema de archivos estaticos e imagenes para el Sitio Web.
 	- Agregado Sistema de Permisos para el Sitio Web.
+	- Arreglado Testing API Url.
 	- Mejorado Sitio Web por completo.
 	- Cambiado Diseño del Sitio Web.
 v2.4.3.9 (Pre-release)
