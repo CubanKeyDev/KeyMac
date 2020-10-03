@@ -1,5 +1,5 @@
 v2.4.4 (Release)
-  date: 2020-10-10
+  date: 2020-10-25
   changes:
 	- Agregado Panel de Configuracion y Gestion del KeyMac via Web.
 	- Agregado Registro, Autenticacion y Gestion de cuentas de usuario via Web.
@@ -8,9 +8,15 @@ v2.4.4 (Release)
 	- Agregado Vision y Objetivo del Proyecto via Web.
 	- Agregado Sistema de archivos estaticos e imagenes para el Sitio Web.
 	- Agregado Sistema de Permisos para el Sitio Web.
+	- Agregado Sistema de Analisis de Conectividad en el Cliente. (PingTimeAverage)
+	- Agregado Sistema de Anclaje de juegos en el Cliente.
 	- Arreglado Testing API Url.
+	- Arreglado Terminos y Condiciones de Uso.
 	- Mejorado Sitio Web por completo.
+	- Mejorado Sistema de Deteccion. (AddMoreInformation)
 	- Cambiado Diseño del Sitio Web.
+	- Cambiada la estructura de informacion de los procesos.
+	- Cambiado Ofuscador de Codigo Fuente. (Eazfuscator.NET Outdated)
 v2.4.3.9 (Pre-release)
   date: 2020-09-22
   changes:
@@ -97,7 +103,7 @@ v2.4.3.5 (Pre-release)
 	- Intengrando Modulo de Integralidad y Detector de Injectores.
 	- Cambiado Razon del Ban en el Servidor.
 	- Cambiado Orden de envio de Informacion.
-	- Cambiado Ofuscador de Codigo Fuente.
+	- Cambiado Ofuscador de Codigo Fuente. (Confuser Ex Outdated)
 	- Removido requerido Perfil de Dominio del Firewall.
 v2.4.3.4 (Pre-release)
   date: 2020-08-14
