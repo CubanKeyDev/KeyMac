@@ -10,10 +10,14 @@ v2.4.4 (Release)
 	- Agregado Sistema de Permisos para el Sitio Web.
 	- Agregado Sistema de Analisis de Conectividad en el Cliente. (PingTimeAverage)
 	- Agregado Sistema de Anclaje de juegos en el Cliente.
+	- Agregado Informacion extra en la ventana de carga del Cliente.
+	- Agregado Opcion de uso del Firewall en el Servidor.
 	- Arreglado Testing API Url.
+	- Arreglado API Actions:.
 	- Arreglado Terminos y Condiciones de Uso.
+	- Arreglado Auto Conectarse en la pantalla de configuraciones.
 	- Mejorado Sitio Web por completo.
-	- Mejorado Sistema de Deteccion. (AddMoreInformation)
+	- Mejorado y Optimizado Sistema de Deteccion. (AddMoreInformation)
 	- Cambiado Diseño del Sitio Web.
 	- Cambiada la estructura de informacion de los procesos.
 	- Cambiado Ofuscador de Codigo Fuente. (Eazfuscator.NET Outdated)
