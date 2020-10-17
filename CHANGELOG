@@ -1,24 +1,32 @@
 v2.4.4 (Release)
-  date: 2020-10-25
+  date: 2020-10-30 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Panel de Configuracion y Gestion del KeyMac via Web.
 	- Agregado Registro, Autenticacion y Gestion de cuentas de usuario via Web.
 	- Agregado Sistema de Noticias sobre los Servicios disponibles via Web.
 	- Agregado Guia Basica de Utilizacion del KeyMac via Web.
-	- Agregado Vision y Objetivo del Proyecto via Web.
-	- Agregado Sistema de archivos estaticos e imagenes para el Sitio Web.
 	- Agregado Sistema de Permisos para el Sitio Web.
+v2.4.3.10 (Pre-release)
+  date: 2020-10-18
+  changes:
+	- Agregado Sistema de Comentarios de usuario para el Sitio Web.
+	- Agregado Sistema de archivos estaticos e imagenes para el Sitio Web.
+	- Agregado Vision, Objetivo y Reglamento personalizado en el Sitio Web.
+	- Agregado Limitador de Lineas en la Consola del Servidor (Max500Lines).
 	- Agregado Sistema de Analisis de Conectividad en el Cliente. (PingTimeAverage)
 	- Agregado Sistema de Anclaje de juegos en el Cliente.
 	- Agregado Informacion extra en la ventana de carga del Cliente.
 	- Agregado Opcion de uso del Firewall en el Servidor.
+	- Agregado Reglas TCP en el Firewall. (DifferentBetweenTCPAndUDPRules)
 	- Arreglado Testing API Url.
-	- Arreglado API Actions:.
+	- Arreglado API Actions: ban, unban, isban, login, register.
 	- Arreglado Terminos y Condiciones de Uso.
-	- Arreglado Auto Conectarse en la pantalla de configuraciones.
+	- Arreglado Auto Conectarse en la pantalla de configuraciones del Cliente.
+	- Arreglado Carga incorrecta de las estadisticas del servidor.
 	- Mejorado Sitio Web por completo.
 	- Mejorado y Optimizado Sistema de Deteccion. (AddMoreInformation)
 	- Cambiado Diseño del Sitio Web.
+	- Cambiado Sistema interno de la Web. (MigrateToMVC)
 	- Cambiada la estructura de informacion de los procesos.
 	- Cambiado Ofuscador de Codigo Fuente. (Eazfuscator.NET Outdated)
 v2.4.3.9 (Pre-release)
