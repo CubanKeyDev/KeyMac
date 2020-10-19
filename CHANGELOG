@@ -7,7 +7,7 @@ v2.4.4 (Release)
 	- Agregado Guia Basica de Utilizacion del KeyMac via Web.
 	- Agregado Sistema de Permisos para el Sitio Web.
 v2.4.3.10 (Pre-release)
-  date: 2020-10-18
+  date: 2020-10-19
   changes:
 	- Agregado Sistema de Comentarios de usuario para el Sitio Web.
 	- Agregado Sistema de archivos estaticos e imagenes para el Sitio Web.
