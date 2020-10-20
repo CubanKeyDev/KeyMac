@@ -1,4 +1,11 @@
-v2.4.4 (Release)
+v2.4.4.1 (Pre-release)
+  date: 2020-11-?? (Posposed By not have Nauta hours)
+  changes:
+	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
+	- Agregado KeyMac DLL inyectado en los juegos protegidos. (DetectChangeMemory)
+	- Agregado Mini Sistema unificador de KeyMac's.
+	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
+v2.4.4.0 (Pre-release)
   date: 2020-10-30 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Panel de Configuracion y Gestion del KeyMac via Web.
@@ -6,7 +13,15 @@ v2.4.4 (Release)
 	- Agregado Sistema de Noticias sobre los Servicios disponibles via Web.
 	- Agregado Guia Basica de Utilizacion del KeyMac via Web.
 	- Agregado Sistema de Permisos para el Sitio Web.
-v2.4.3.10 (Pre-release)
+	- Agregado Sistema de Gestion de Sesiones y Cookies.
+v2.4.4 (Release)
+  date: 2020-10-20
+  changes:
+	- Arreglado lista de usuarios conectados no sincronizada.
+	- Agregado Lenguage interno de plantillas. (TemplatingLanguage)
+	- Arreglado Falla de lectura de procesos. (ProcessDetector)
+	- Optimizado Scanner de procesos.
+v2.4.3.10 (Pre-release, INSECURED)
   date: 2020-10-19
   changes:
 	- Agregado Sistema de Comentarios de usuario para el Sitio Web.
