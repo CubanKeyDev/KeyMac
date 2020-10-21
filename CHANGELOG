@@ -15,7 +15,7 @@ v2.4.4.0 (Pre-release)
 	- Agregado Sistema de Permisos para el Sitio Web.
 	- Agregado Sistema de Gestion de Sesiones y Cookies.
 v2.4.4 (Release)
-  date: 2020-10-20
+  date: 2020-10-21
   changes:
 	- Arreglado lista de usuarios conectados no sincronizada.
 	- Agregado Lenguage interno de plantillas. (TemplatingLanguage)
