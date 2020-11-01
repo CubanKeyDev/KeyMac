@@ -1,5 +1,5 @@
 v2.4.4.2 (Pre-release)
-  date: 2020-11-?? (Posposed By not have Nauta hours)
+  date: 2020-11-30 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
@@ -8,7 +8,7 @@ v2.4.4.2 (Pre-release)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
 	- Agregado Sistema de Gestion de Servidores Protegidos via Web.
 v2.4.4.1 (Pre-release)
-  date: 2020-10-31
+  date: 2020-11-05 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Nuevos codigos de hacks en el ProcessDetector.
 	- Agregado Actualizador de la Lista de servidores en el Cliente.
@@ -17,13 +17,16 @@ v2.4.4.1 (Pre-release)
 	- Agregado Creador de Super Usuarios en la Web. (LocalSuperuserCreator)
 	- Agregado Sistema de Permisos para el Sitio Web.
 	- Agregado Sistema de Gestion de Sesiones y Cookies.
+	- Agregado Parser de MultiPart/Form-Data en la Web.
+	- Agregado Sistema de Gestion de Datos en el Request. (RequestDataManager)
 	- Agregado Proteccion contra CSRF en la Web. (AddCSRFTokens)
 	- Agregado Proteccion contra Clickjacking en la Web.
 	- Agregado Proteccion contra XSS en la Web. (Cross-Site Protection)
 	- Agregado Proteccion de Cookies en la Web. (CookieSameSiteLax)
 	- Arreglado Lista de Usuarios Conectados en el Servidor.
-	- Mejorado Parser HTTP en el Servidor Web. (DetectionMimeTypeDataUpload)
-	- Removido Reglas TCP en el Firewall. (IncompatibilityRules)
+	- Arreglado Reglas TCP en el Firewall. (IncompatibilityRules)
+	- Mejorado Sistema de cache en la Web. (AddCheckingLastModified)
+	- Mejorado Parser HTTP en el Servidor Web. (DetectionContentTypeDataUpload)
 v2.4.4.0 (Release)
   date: 2020-10-21
   changes:
