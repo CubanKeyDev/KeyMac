@@ -1,14 +1,17 @@
-v2.4.4.2 (Pre-release)
+v2.4.4.3 (Pre-release)
   date: 2020-11-30 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
-	- Agregado Mini Sistema unificador de KeyMac's.
-	- Agregado Sistema API en el Servidor KeyMac.
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
+v2.4.4.2 (Pre-release)
+  date: 2020-11-10
+  changes:
 	- Agregado Sistema de Gestion de Servidores Protegidos via Web.
+	- Agregado Sistema unificador de KeyMac's.
+	- Agregado Mini Sistema API en el Servidor KeyMac.
 v2.4.4.1 (Pre-release)
-  date: 2020-11-05 (Posposed By not have Nauta hours)
+  date: 2020-11-05
   changes:
 	- Agregado Nuevos codigos de hacks en el ProcessDetector.
 	- Agregado Actualizador de la Lista de servidores en el Cliente.
@@ -25,6 +28,7 @@ v2.4.4.1 (Pre-release)
 	- Agregado Proteccion de Cookies en la Web. (CookieSameSiteLax)
 	- Arreglado Lista de Usuarios Conectados en el Servidor.
 	- Arreglado Reglas TCP en el Firewall. (IncompatibilityRules)
+	- Mejorado Reglas de Puertos en el Firewall. (MergeFirewallPortRules)
 	- Mejorado Sistema de cache en la Web. (AddCheckingLastModified)
 	- Mejorado Parser HTTP en el Servidor Web. (DetectionContentTypeDataUpload)
 v2.4.4.0 (Release)
