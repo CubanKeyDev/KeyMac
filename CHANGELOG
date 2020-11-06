@@ -10,6 +10,7 @@ v2.4.4.2 (Pre-release)
 	- Agregado Sistema de Gestion de Servidores Protegidos via Web.
 	- Agregado Sistema unificador de KeyMac's.
 	- Agregado Mini Sistema API en el Servidor KeyMac.
+	- Agregado Visualizador de Comentarios en la Web.
 v2.4.4.1 (Pre-release)
   date: 2020-11-05
   changes:
