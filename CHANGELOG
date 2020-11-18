@@ -1,16 +1,22 @@
-v2.4.4.3 (Pre-release)
-  date: 2020-11-30 (Posposed By not have Nauta hours)
+v3.0.1 (Pre-release)
+  date: 2020-12-10 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
-v2.4.4.2 (Pre-release)
-  date: 2020-11-10
+v3.0.0 (Pre-release)
+  date: 2020-11-25 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Sistema de Gestion de Servidores Protegidos via Web.
 	- Agregado Sistema unificador de KeyMac's.
 	- Agregado Mini Sistema API en el Servidor KeyMac.
 	- Agregado Visualizador de Comentarios en la Web.
+	- Agregado Enrutador de Red en el Cliente. (BindAdapter)
+	- Agregado Cola de Proceso en el Gestor del Firewall.
+	- Arreglado Opciones del Socket en la Libreria de Comunicacion.
+	- Cambiado la interfaz del Cliente.
+	- Migracion de .NET Framework a .NET Core
+	- Optimizado Scanner de Procesos. (ChangeThreadForTask)
 v2.4.4.1 (Pre-release)
   date: 2020-11-05
   changes:
