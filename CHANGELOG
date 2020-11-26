@@ -1,11 +1,11 @@
 v3.0.1 (Pre-release)
-  date: 2020-12-10 (Posposed By not have Nauta hours)
+  date: 2020-12-15 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
 v3.0.1 (Pre-release)
-  date: 2020-11-30 (Posposed By not have Nauta hours)
+  date: 2020-12-05 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Sistema de Gestion de Servidores Protegidos via Web.
 	- Agregado Sistema unificador de KeyMac's.
@@ -14,13 +14,14 @@ v3.0.1 (Pre-release)
 	- Agregado Buscador de Roles en la Web.
 	- Agregado Ultimas Acciones de los Administradores en la Web.
 v3.0.0 (Pre-release)
-  date: 2020-11-25
+  date: 2020-11-27 (Posposed By Testing)
   changes:
 	- Agregado Enrutador de Red en el Cliente. (BindAdapter)
 	- Agregado Cola de Proceso en el Gestor del Firewall.
 	- Agregado Cancelador de Carga en el Cliente.
 	- Agregado nuevos procesos para el Whitelist Principal.
 	- Agregado lista de administradores en la Web.
+	- Agregado Restriccion de Conexion por Cuenta de Usuario.
 	- Arreglado Opciones del Socket en la Libreria de Comunicacion.
 	- Arreglado Tiempo de Respuesta de Conexion en la Libreria de Comunicacion.
 	- Arreglado Orden del CSV en los Datos Recibidos por el Servidor.
