@@ -1,4 +1,4 @@
-v3.0.1 (Pre-release)
+v3.0.2 (Pre-release)
   date: 2020-12-15 (Posposed By not have Nauta hours)
   changes:
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
@@ -14,7 +14,7 @@ v3.0.1 (Pre-release)
 	- Agregado Buscador de Roles en la Web.
 	- Agregado Ultimas Acciones de los Administradores en la Web.
 v3.0.0 (Pre-release)
-  date: 2020-11-27 (Posposed By Testing)
+  date: 2020-11-29
   changes:
 	- Agregado Enrutador de Red en el Cliente. (BindAdapter)
 	- Agregado Cola de Proceso en el Gestor del Firewall.
@@ -22,13 +22,19 @@ v3.0.0 (Pre-release)
 	- Agregado nuevos procesos para el Whitelist Principal.
 	- Agregado lista de administradores en la Web.
 	- Agregado Restriccion de Conexion por Cuenta de Usuario.
+	- Agregado Logs independiente de la Web.
+	- Agregado Capa extra de seguridad en el Servidor.
+	- Agregado Forzador de envio de informacion al Servidor.
+	- Agregado Gestor de Cuenta olvidada en la Web.
 	- Arreglado Opciones del Socket en la Libreria de Comunicacion.
 	- Arreglado Tiempo de Respuesta de Conexion en la Libreria de Comunicacion.
+	- Arreglado envio de datos en la Libreria de Comunicacion.
 	- Arreglado Orden del CSV en los Datos Recibidos por el Servidor.
 	- Arreglado Envio del Tamaño de archivos estaticos en la Web. (ContentLenghtResponse)
 	- Arreglado Error de Full Consola en el Servidor.
 	- Cambiado la interfaz del Cliente. (MigrateUserControlView)
 	- Cambiado el Formato de las ScreenShot a JPG. (OptimizeScreenshot)
+	- Cambiado el Formato de los Logs. (.log)
 	- Cambiado Tiempo de Inactividad en el Cliente.
 	- Optimizado Scanner de Procesos. (ChangeThreadForTask)
 	- Optimizado Archivos Estaticos en la Web. (StaticsCompressed)
