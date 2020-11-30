@@ -11,7 +11,6 @@ v3.0.1 (Pre-release)
 	- Agregado Sistema unificador de KeyMac's.
 	- Agregado Mini Sistema API en el Servidor KeyMac.
 	- Agregado Visualizador de Comentarios en la Web.
-	- Agregado Buscador de Roles en la Web.
 	- Agregado Ultimas Acciones de los Administradores en la Web.
 v3.0.0 (Pre-release)
   date: 2020-11-29
@@ -25,7 +24,7 @@ v3.0.0 (Pre-release)
 	- Agregado Logs independiente de la Web.
 	- Agregado Capa extra de seguridad en el Servidor.
 	- Agregado Forzador de envio de informacion al Servidor.
-	- Agregado Gestor de Cuenta olvidada en la Web.
+	- Agregado Gestor de Recuperacion de Cuentas en la Web.
 	- Arreglado Opciones del Socket en la Libreria de Comunicacion.
 	- Arreglado Tiempo de Respuesta de Conexion en la Libreria de Comunicacion.
 	- Arreglado envio de datos en la Libreria de Comunicacion.
