@@ -1,17 +1,35 @@
 v3.0.2 (Pre-release)
-  date: 2020-12-15 (Posposed By not have Nauta hours)
+  date: 2021-??-?? (Proyecto detenido por falta de presupuesto)
   changes:
-	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
-v3.0.1 (Pre-release)
-  date: 2020-12-05 (Posposed By not have Nauta hours)
-  changes:
-	- Agregado Sistema de Gestion de Servidores Protegidos via Web.
+	- Agregado Sistema de Control Remoto via Web. (VNCRemoteConnection)
+	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado Sistema unificador de KeyMac's.
-	- Agregado Mini Sistema API en el Servidor KeyMac.
+	- Agregado Envio de Errores en el Cliente.
+	- Agregado Capa de seguridad en la conexion. (UseHTTPS)
+	- Agregado Sistema de Rastreo a los Usuarios. (TrackingMode)
+v3.0.1 (Pre-release)
+  date: 2021-01-15
+  changes:
+	- Agregado Sistema de Gestion de Servidores via Web. (RCONServer)
 	- Agregado Visualizador de Comentarios en la Web.
 	- Agregado Ultimas Acciones de los Administradores en la Web.
+	- Agregado Enrutador de Adaptadores de Red en el Cliente.
+	- Agregado Paginadores en varios listados de la Web.
+	- Agregado Asignador de Rango Root a un usuario en la Web.
+	- Agregado Expulsor extra en el Firewall.
+	- Agregado Sistema modular de permisos en la Web.
+	- Agregado Mini Sistema API en la Web.
+	- Agregado Optimizador de Templates en la Web.
+	- Arreglado Recibir informacion del Servidor en el Cliente.
+	- Arreglado Mensaje de Error al Cargar el Cliente.
+	- Arreglado Mensaje de Baneado repetido en el Cliente.
+	- Arreglado Envio de Datos repetidos en el Cliente.
+	- Arreglado Comprobacion del Cliente. (FixOriginChecking)
+	- Actualizado el Descompilador en el Cliente.
+	- Eliminado Recortes de Capturas de los Procesos Progetidos.
+	- Optimizado Consola en la Web.
 v3.0.0 (Pre-release)
   date: 2020-11-29
   changes:

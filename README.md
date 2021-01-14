@@ -105,7 +105,7 @@ responsable del mal uso que se le pueda dar a este producto.
 * Recolector de información no sensible.
 
 	- Extrae información de cada proceso ejecutado, instalado o activo.
-	- Recolecta caputras de pantalla de procesos protegidos.
+	- Recolecta capturas de pantalla de procesos protegidos.
 	- Captura todos los dispositivos HID conectados.
 
 * Sistema de Procesos Protegidos.
