@@ -1,14 +1,30 @@
 v3.0.2 (Pre-release)
-  date: 2021-??-?? (Proyecto detenido por falta de presupuesto)
+  date: 2021-??-?? (Proyecto detenido por falta de presupuesto, modo lento activo)
   changes:
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
 	- Agregado Sistema de Control Remoto via Web. (VNCRemoteConnection)
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado Sistema unificador de KeyMac's.
-	- Agregado Envio de Errores en el Cliente.
 	- Agregado Capa de seguridad en la conexion. (UseHTTPS)
+	- Agregado Soporte a Juegos de la plataforma Java. (AddMinecraftSupport)
+v3.0.1.1 (Pre-release)
+  date: 2021-03-02
+  changes:
+	- Agregado mas funcionalidades para el API.
+	- Agregado Metodo ARP Local para identificar al Cliente.
 	- Agregado Sistema de Rastreo a los Usuarios. (TrackingMode)
+	- Agregado Aceptar Reglamento del Servidor en el Cliente.
+	- Agregado Icono de enviar Comentario en el Cliente.
+	- Agregado Añadir un nuevo usuario en la Web.
+	- Agregado Salvas automaticas de la base de datos.
+	- Agregado Descompilar DLLs de los procesos en el Cliente.
+	- Arreglado el Orden en varios listados en la Web.
+	- Arreglado y Mejorado el Checker de Integralidad.
+	- Mejorado el Analizador de Codigo fuente en el Cliente.
+	- Aumentado el tiempo agotado de la actualizacion del Cliente.
+	- Actualizado el Descompilador en el Cliente.
+	- Removido Ocultar KeyMac al minimizar.
 v3.0.1 (Pre-release)
   date: 2021-01-15
   changes:
