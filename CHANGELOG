@@ -1,5 +1,5 @@
-v3.0.2 (Pre-release)
-  date: 2021-??-?? (Proyecto detenido por falta de presupuesto, modo lento activo)
+v3.?.? (Pre-release)
+  date: 2021-??-?? (Proyecto modo lento por falta de presupuesto)
   changes:
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
@@ -8,7 +8,14 @@ v3.0.2 (Pre-release)
 	- Agregado Sistema unificador de KeyMac's.
 	- Agregado Capa de seguridad en la conexion. (UseHTTPS)
 	- Agregado Soporte a Juegos de la plataforma Java. (AddMinecraftSupport)
-v3.0.1.1 (Pre-release)
+v3.0.1.2 (Pre-release)
+  date: 2021-03-06
+  changes:
+	- Agregado Enviar datos de los DLLs injectados.
+	- Agregado Opciones al Checkeo de Integralidad y Dll Injection.
+	- Arreglado Error de compilacion. (DisabledNativeEncryptation)
+	- Arreglado Desbanear desde la interfaz del servidor.
+v3.0.1.1 (Pre-release, AGGRESSIVE)
   date: 2021-03-02
   changes:
 	- Agregado mas funcionalidades para el API.
@@ -25,7 +32,7 @@ v3.0.1.1 (Pre-release)
 	- Aumentado el tiempo agotado de la actualizacion del Cliente.
 	- Actualizado el Descompilador en el Cliente.
 	- Removido Ocultar KeyMac al minimizar.
-v3.0.1 (Pre-release)
+v3.0.1 (Pre-release, STABLE)
   date: 2021-01-15
   changes:
 	- Agregado Sistema de Gestion de Servidores via Web. (RCONServer)
