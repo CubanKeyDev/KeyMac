@@ -6,8 +6,22 @@ v3.?.? (Pre-release)
 	- Agregado Sistema de Control Remoto via Web. (VNCRemoteConnection)
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado Sistema unificador de KeyMac's.
-	- Agregado Capa de seguridad en la conexion. (UseHTTPS)
 	- Agregado Soporte a Juegos de la plataforma Java. (AddMinecraftSupport)
+v3.0.2.0 (Pre-release, UNSTABLE)
+  date: 2021-03-26
+  changes:
+	- Agregado Soporte a MySQL y PostgresSQL al Servidor.
+	- Agregado Proteccion CORS en la Web.
+	- Agregado Opciones nuevas de configuración.
+	- Arreglado la Proteccion contra CSRF en la Web.
+	- Reimplementado Servidor.
+	- Cambiado Protocolo de Comunicacion
+	- Cambiado Interfaz del Servidor. (MoveAllInterfaceToWeb)
+	- Cambiado Estructura de Datos en la Base de Datos.
+	- Codificado Contraseñas de usuario en la Base de Datos.
+	- Mejorado API-REST interactivo con el KeyMac.
+	- Mejorado Tracking del Usuario.
+	- Movido casi toda la interfaz a la Web.
 v3.0.1.2 (Pre-release)
   date: 2021-03-06
   changes:
