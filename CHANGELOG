@@ -13,16 +13,23 @@ v3.0.2.0 (Pre-release, UNSTABLE)
 	- Agregado Soporte a MySQL y PostgresSQL al Servidor.
 	- Agregado Proteccion CORS en la Web.
 	- Agregado Opciones nuevas de configuración.
+	- Agregado Opciones nuevas en los Procesos Protegidos.
+	- Agregado Nuevas Whitelist/Blacklist a las Excepciones.
+	- Agregado Configurador de la Base de Datos.
 	- Arreglado la Proteccion contra CSRF en la Web.
-	- Reimplementado Servidor.
-	- Cambiado Protocolo de Comunicacion
+	- Arreglado Recarga del archivo de Configuracion.
+	- Arreglado Error con las reglas del Firewall.
+	- Reimplementado Servidor. (TestingMode)
+	- Cambiado Protocolo de Comunicacion del Cliente.
 	- Cambiado Interfaz del Servidor. (MoveAllInterfaceToWeb)
 	- Cambiado Estructura de Datos en la Base de Datos.
+	- Cambiado Estructura de Datos recibidos por el Usuario.
+	- Cambiado Estructura de Datos en la Configuración.
 	- Codificado Contraseñas de usuario en la Base de Datos.
+	- Optimizado las Queries a la Base de Datos.
 	- Mejorado API-REST interactivo con el KeyMac.
 	- Mejorado Tracking del Usuario.
-	- Movido casi toda la interfaz a la Web.
-v3.0.1.2 (Pre-release)
+v3.0.1.2 (Pre-release, BUGS)
   date: 2021-03-06
   changes:
 	- Agregado Enviar datos de los DLLs injectados.
