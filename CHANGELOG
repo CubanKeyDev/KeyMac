@@ -7,8 +7,8 @@ v3.?.? (Pre-release)
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado Sistema unificador de KeyMac's.
 	- Agregado Soporte a Juegos de la plataforma Java. (AddMinecraftSupport)
-v3.0.2.0 (Pre-release, UNSTABLE)
-  date: 2021-03-26
+v3.0.2.0 (Pre-release, SERVER UNSTABLE)
+  date: 2021-04-08
   changes:
 	- Agregado Soporte a MySQL y PostgresSQL al Servidor.
 	- Agregado Proteccion CORS en la Web.
@@ -16,17 +16,26 @@ v3.0.2.0 (Pre-release, UNSTABLE)
 	- Agregado Opciones nuevas en los Procesos Protegidos.
 	- Agregado Nuevas Whitelist/Blacklist a las Excepciones.
 	- Agregado Configurador de la Base de Datos.
-	- Arreglado la Proteccion contra CSRF en la Web.
+	- Agregado Nuevos Mensajes del Registro en el Cliente.
+	- Agregado Entorno para futuro Soporte a Java.
+	- Agregado Mensajes Detallados en el Cliente.
+	- Arreglado Proteccion contra CSRF en la Web.
 	- Arreglado Recarga del archivo de Configuracion.
 	- Arreglado Error con las reglas del Firewall.
+	- Arreglado Escaneo Paralelo en el ProcessDetector.
 	- Reimplementado Servidor. (TestingMode)
-	- Cambiado Protocolo de Comunicacion del Cliente.
-	- Cambiado Interfaz del Servidor. (MoveAllInterfaceToWeb)
-	- Cambiado Estructura de Datos en la Base de Datos.
-	- Cambiado Estructura de Datos recibidos por el Usuario.
-	- Cambiado Estructura de Datos en la Configuración.
+	- Modificado Protocolo de Comunicacion del Cliente.
+	- Modificado Interfaz del Servidor. (MoveAllInterfacesToWeb)
+	- Modificado Estructura de Datos en la Base de Datos.
+	- Modificado Estructura de Datos recibidos por el Usuario.
+	- Modificado Estructura de Datos en la Configuración.
+	- Modificado Mensajes del Registro en el Servidor.
 	- Codificado Contraseñas de usuario en la Base de Datos.
-	- Optimizado las Queries a la Base de Datos.
+	- Optimizado las Queries de la Base de Datos.
+	- Optimizado Consumo de Red y Conectividad.
+	- Optimizado Serializador de Datos enviados.
+	- Optimizado Servidor según lo definido en el RFC 6455.
+	- Removido Serialización de Datos en JSON.
 	- Mejorado API-REST interactivo con el KeyMac.
 	- Mejorado Tracking del Usuario.
 v3.0.1.2 (Pre-release, BUGS)
