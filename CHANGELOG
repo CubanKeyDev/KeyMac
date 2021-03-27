@@ -5,9 +5,8 @@ v3.?.? (Pre-release)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
 	- Agregado Sistema de Control Remoto via Web. (VNCRemoteConnection)
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
-	- Agregado Sistema unificador de KeyMac's.
 	- Agregado Soporte a Juegos de la plataforma Java. (AddMinecraftSupport)
-v3.0.2.0 (Pre-release, SERVER UNSTABLE)
+v3.0.2.0 (Pre-release, UNSTABLE)
   date: 2021-04-08
   changes:
 	- Agregado Soporte a MySQL y PostgresSQL al Servidor.
@@ -18,11 +17,15 @@ v3.0.2.0 (Pre-release, SERVER UNSTABLE)
 	- Agregado Configurador de la Base de Datos.
 	- Agregado Nuevos Mensajes del Registro en el Cliente.
 	- Agregado Entorno para futuro Soporte a Java.
+	- Agregado Comprobador de Firmas Digitales.
+	- Agregado Firmas Digitales Seguras en la Whitelist.
 	- Agregado Mensajes Detallados en el Cliente.
 	- Arreglado Proteccion contra CSRF en la Web.
 	- Arreglado Recarga del archivo de Configuracion.
 	- Arreglado Error con las reglas del Firewall.
 	- Arreglado Escaneo Paralelo en el ProcessDetector.
+	- Arreglado Comprobaciones Extra en el Cliente.
+	- Arreglado Recolector de Datos en el Cliente. (ProcessDetector)
 	- Reimplementado Servidor. (TestingMode)
 	- Modificado Protocolo de Comunicacion del Cliente.
 	- Modificado Interfaz del Servidor. (MoveAllInterfacesToWeb)
@@ -35,8 +38,11 @@ v3.0.2.0 (Pre-release, SERVER UNSTABLE)
 	- Optimizado Consumo de Red y Conectividad.
 	- Optimizado Serializador de Datos enviados.
 	- Optimizado Servidor según lo definido en el RFC 6455.
+	- Optimizado Recolector de Datos en el Cliente.
+	- Actualizado el Descompilador en el Cliente.
 	- Removido Serialización de Datos en JSON.
 	- Mejorado API-REST interactivo con el KeyMac.
+	- Mejorado el Relector de Dispositivos HID.
 	- Mejorado Tracking del Usuario.
 v3.0.1.2 (Pre-release, BUGS)
   date: 2021-03-06
