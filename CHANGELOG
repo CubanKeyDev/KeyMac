@@ -26,6 +26,7 @@ v3.0.2.0 (Pre-release, UNSTABLE)
 	- Arreglado Escaneo Paralelo en el ProcessDetector.
 	- Arreglado Comprobaciones Extra en el Cliente.
 	- Arreglado Recolector de Datos en el Cliente. (ProcessDetector)
+	- Arreglado Alto consumo de CPU en el Cliente.
 	- Reimplementado Servidor. (TestingMode)
 	- Modificado Protocolo de Comunicacion del Cliente.
 	- Modificado Interfaz del Servidor. (MoveAllInterfacesToWeb)
