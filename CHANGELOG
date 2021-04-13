@@ -6,8 +6,9 @@ v3.?.? (Pre-release)
 	- Agregado Sistema de Control Remoto via Web. (VNCRemoteConnection)
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado Soporte a Juegos de la plataforma Java. (AddMinecraftSupport)
-v3.0.2.0 (Pre-release, UNSTABLE)
-  date: 2021-04-08
+	- Agregado Modulo de Unificacion entre KeyMac via Base de Datos.
+v3.0.2.0 (Pre-release, UNSTABLE => TESTING MODE)
+  date: 2021-04-20
   changes:
 	- Agregado Soporte a MySQL y PostgresSQL al Servidor.
 	- Agregado Proteccion CORS en la Web.
