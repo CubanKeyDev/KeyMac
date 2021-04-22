@@ -3,12 +3,13 @@ v3.?.? (Pre-release)
   changes:
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
+	- Agregado Multiples modos de Firewall en el Servidor.
 	- Agregado Sistema de Control Remoto via Web. (VNCRemoteConnection)
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado Soporte a Juegos de la plataforma Java. (AddMinecraftSupport)
 	- Agregado Modulo de Unificacion entre KeyMac via Base de Datos.
-v3.0.2.0 (Pre-release, UNSTABLE => TESTING MODE)
-  date: 2021-04-20
+v3.0.2.0 (Pre-release, UNSTABLE => TESTING MODE, NO HAVE TEST MACHINE)
+  date: 2021-04-??
   changes:
 	- Agregado Soporte a MySQL y PostgresSQL al Servidor.
 	- Agregado Proteccion CORS en la Web.
@@ -16,6 +17,7 @@ v3.0.2.0 (Pre-release, UNSTABLE => TESTING MODE)
 	- Agregado Opciones nuevas en los Procesos Protegidos.
 	- Agregado Nuevas Whitelist/Blacklist a las Excepciones.
 	- Agregado Configurador de la Base de Datos.
+	- Agregado Encriptador en la Base de Datos SQLite.
 	- Agregado Nuevos Mensajes del Registro en el Cliente.
 	- Agregado Entorno para futuro Soporte a Java.
 	- Agregado Comprobador de Firmas Digitales.
