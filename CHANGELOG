@@ -3,13 +3,23 @@ v3.?.? (Pre-release)
   changes:
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
-	- Agregado Multiples modos de Firewall en el Servidor.
+	- Agregado Multiples modos de Acceso al los Servidores Protegidos.
 	- Agregado Sistema de Control Remoto via Web. (VNCRemoteConnection)
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado Soporte a Juegos de la plataforma Java. (AddMinecraftSupport)
+	- Agregado Modulo de Gestion Interna de Servicios. (ServiceManager)
 	- Agregado Modulo de Unificacion entre KeyMac via Base de Datos.
-v3.0.2.0 (Pre-release, UNSTABLE => TESTING MODE, NO HAVE TEST MACHINE)
-  date: 2021-04-??
+	- Agregado Modulo de Descarga y Auto-Update de Procesos Protegidos. (UpdateGames)
+v3.0.2.1 (Pre-release, STABLE)
+  date: 2021-06-??
+  changes:
+	- Agregado Soporte a Linux y liberacion del codigo del Servidor (KeyMac-Python)
+	- Agregado Sistema de Compresion de Datos.
+	- Agregado Nuevo metodo de identificacion Unica por SSID.
+	- Mejorado Configuraciones basicas en el Cliente.
+	- Mejorado Integracion con el TINServer en el Servidor. (TINApiServer)
+v3.0.2.0 (Pre-release, UNSTABLE => IN TESTING MODE)
+  date: 2021-06-01
   changes:
 	- Agregado Soporte a MySQL y PostgresSQL al Servidor.
 	- Agregado Proteccion CORS en la Web.
@@ -30,7 +40,8 @@ v3.0.2.0 (Pre-release, UNSTABLE => TESTING MODE, NO HAVE TEST MACHINE)
 	- Arreglado Comprobaciones Extra en el Cliente.
 	- Arreglado Recolector de Datos en el Cliente. (ProcessDetector)
 	- Arreglado Alto consumo de CPU en el Cliente.
-	- Reimplementado Servidor. (TestingMode)
+	- Arreglado Permisos con ACL en el Cliente.
+	- Reimplementado el Servidor hecho en C#. (TestingMode)
 	- Modificado Protocolo de Comunicacion del Cliente.
 	- Modificado Interfaz del Servidor. (MoveAllInterfacesToWeb)
 	- Modificado Estructura de Datos en la Base de Datos.
