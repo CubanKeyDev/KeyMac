@@ -3,22 +3,31 @@ v3.?.? (Pre-release)
   changes:
 	- Agregado KeyMac DLL inyectado en los procesos protegidos. (DetectInternalChangeMemory)
 	- Agregado Sistema interno VPN en el Cliente. (AllowUseVPNInTheServer)
+	- Agregado Sistema de lobbies en el Cliente.
 	- Agregado Multiples modos de Acceso al los Servidores Protegidos.
 	- Agregado Sistema de Control Remoto via Web. (VNCRemoteConnection)
 	- Agregado Detector de Anti-Recoil en el Cliente. (DetectMouseInyection)
 	- Agregado Soporte a Juegos de la plataforma Java. (AddMinecraftSupport)
 	- Agregado Modulo de Gestion Interna de Servicios. (ServiceManager)
-	- Agregado Modulo de Unificacion entre KeyMac via Base de Datos.
+	- Agregado Modulo de Unificacion entre KeyMac via API.
 	- Agregado Modulo de Descarga y Auto-Update de Procesos Protegidos. (UpdateGames)
-v3.0.2.1 (Pre-release, STABLE)
-  date: 2021-06-??
+v3.0.3.0 (Betta-release, DEVELOPING)
+  date: 2021-10-??
   changes:
-	- Agregado Soporte a Linux y liberacion del codigo del Servidor (KeyMac-Python)
 	- Agregado Sistema de Compresion de Datos.
+	- Agregado Modo de Scanneo. (Aggresive, Passive)
 	- Agregado Nuevo metodo de identificacion Unica por SSID.
+	- Agregado Sistema Modular de Plugins para el Servidor.
+	- Agregado Sistema de Acceso a Servidores Protegidos.
+	- Removido Interfaz del Servidor. (OnlyWebInterface)
+	- Mudado Servidor a Python (KeyMac-Python)
+	- Modificado Interfaz y funcionalidades del Cliente.
+	- Modificado Logo del KeyMac (Thanks to: 6ɧ0$7)
 	- Mejorado Configuraciones basicas en el Cliente.
+	- Mejorado Configuraciones en el Servidor.
+	- Mejorado Integracion con diferentes sistemas de autenticacion.
 	- Mejorado Integracion con el TINServer en el Servidor. (TINApiServer)
-v3.0.2.0 (Pre-release, UNSTABLE => IN TESTING MODE)
+v3.0.2.0 (Pre-release, UNSTABLE => IN TESTING MODE, DROPED)
   date: 2021-06-01
   changes:
 	- Agregado Soporte a MySQL y PostgresSQL al Servidor.
@@ -26,8 +35,7 @@ v3.0.2.0 (Pre-release, UNSTABLE => IN TESTING MODE)
 	- Agregado Opciones nuevas de configuración.
 	- Agregado Opciones nuevas en los Procesos Protegidos.
 	- Agregado Nuevas Whitelist/Blacklist a las Excepciones.
-	- Agregado Configurador de la Base de Datos.
-	- Agregado Encriptador en la Base de Datos SQLite.
+	- Agregado Configurador de la Base de Datos. (Mysql, PostgresSQL, SQLite)
 	- Agregado Nuevos Mensajes del Registro en el Cliente.
 	- Agregado Entorno para futuro Soporte a Java.
 	- Agregado Comprobador de Firmas Digitales.
